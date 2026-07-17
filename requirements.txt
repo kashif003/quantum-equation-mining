@@ -1,0 +1,21 @@
+# Core NLP — pinned to 3.7.x so the model wheels below match
+spacy>=3.7,<3.8
+spacy-transformers
+
+# Deep learning / transformers
+torch
+transformers
+sentencepiece
+
+# Other top-level libs your project uses
+nltk
+scikit-learn
+beautifulsoup4
+boto3
+bertviz
+numpy<2
+# Notebook support (drop if you don't use notebooks)
+
+# spaCy models (must match spaCy 3.7.x above)
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.7.3/en_core_web_trf-3.7.3-py3-none-any.whl
